@@ -1,6 +1,9 @@
 /**
- * Custom events in JavaScript
  * @author Sergei Snegirev (tz4678@gmail.com)
+ */
+
+/**
+ * EventEmitter constructor
  */
 function EventEmitter() {
   this._listeners = {};
